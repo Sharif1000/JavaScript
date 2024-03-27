@@ -1,0 +1,38 @@
+@media only screen and (max-width: 700px) {
+    .header {
+      text-align: center;
+    }
+    .sort-btn {
+      margin-left: 50px;
+    }
+    .blogpositon{
+       margin-right: 200px;
+    }
+  }
+  
+  #video-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .duration {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    color: white;
+    background-color: rgb(51, 49, 49);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 200;
+  }
